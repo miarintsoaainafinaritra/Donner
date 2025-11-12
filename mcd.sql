@@ -7,11 +7,11 @@ CREATE TABLE Employee(
     id_Team INT
 );
 CREATE TABLE Team(
-    id_Team AUTO_INCREMENT,
+    id_Team INT AUTO_INCREMENT PRIMARY KEY,
     team_name VARCHAR(50)
 );
 CREATE TABLE Leave(
-    id_Leave Auto_INCREMENT,
+    id_Leave INT AUTO_INCREMENT PRIMARY KEY,
     start_date DATE,
     end_date DATE
 );
